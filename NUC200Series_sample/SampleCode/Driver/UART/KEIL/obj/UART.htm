@@ -1,0 +1,635 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\obj\UART.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\obj\UART.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5.03 [Build 76]: Last Updated: Fri Apr 25 16:50:55 2014
+<BR><P>
+<H3>Maximum Stack Usage =        124 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+main &rArr; LIN_FunctionTest &rArr; LIN_MasterTest &rArr; LIN_SendHeader &rArr; GetParityValue
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[1]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1]">NMI_Handler</a><BR>
+ <LI><a href="#[2]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[2]">HardFault_Handler</a><BR>
+ <LI><a href="#[3]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[3]">SVC_Handler</a><BR>
+ <LI><a href="#[4]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4]">PendSV_Handler</a><BR>
+ <LI><a href="#[5]">SysTick_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[5]">SysTick_Handler</a><BR>
+ <LI><a href="#[24]">Default_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[24]">Default_Handler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[1f]">ACMP_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[23]">ADC_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[6]">BOD_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[1a]">CAN0_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[1b]">CAN1_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[24]">Default_Handler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[8]">EINT0_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[9]">EINT1_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[a]">GPAB_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[b]">GPCDEF_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[2]">HardFault_Handler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[18]">I2C0_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[19]">I2C1_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[21]">I2S_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[1]">NMI_Handler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[20]">PDMA_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[1e]">PS2_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[c]">PWMA_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[d]">PWMB_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[22]">PWRWU_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[4]">PendSV_Handler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[25]">RTC_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[2a]">Reset_Handler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[1c]">SC012_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[14]">SPI0_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[15]">SPI1_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[16]">SPI2_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[17]">SPI3_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[3]">SVC_Handler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[5]">SysTick_Handler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[27]">SystemInit</a> from system_nuc200series.o(.text) referenced from startup_nuc200series.o(.text)
+ <LI><a href="#[e]">TMR0_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[f]">TMR1_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[10]">TMR2_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[11]">TMR3_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[12]">UART02_IRQHandler</a> from main.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[13]">UART1_IRQHandler</a> from main.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[1d]">USBD_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[7]">WDT_IRQHandler</a> from startup_nuc200series.o(.text) referenced from startup_nuc200series.o(RESET)
+ <LI><a href="#[28]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_nuc200series.o(.text)
+ <LI><a href="#[29]">fputc</a> from retarget.o(.text) referenced from printf8.o(i.__0printf$8)
+ <LI><a href="#[26]">main</a> from main.o(.text) referenced from entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[28]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(.text)
+</UL>
+<P><STRONG><a name="[59]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[2b]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[54]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[5a]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
+
+<P><STRONG><a name="[5b]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
+
+<P><STRONG><a name="[5c]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
+
+<P><STRONG><a name="[5d]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
+
+<P><STRONG><a name="[5e]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
+
+<P><STRONG><a name="[27]"></a>SystemInit</STRONG> (Thumb, 96 bytes, Stack size 16 bytes, system_nuc200series.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SystemInit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(.text)
+</UL>
+<P><STRONG><a name="[2a]"></a>Reset_Handler</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+
+<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[5]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[1f]"></a>ACMP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[23]"></a>ADC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>BOD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>CAN0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>CAN1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>EINT0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[9]"></a>EINT1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>GPAB_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>GPCDEF_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[18]"></a>I2C0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[19]"></a>I2C1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[21]"></a>I2S_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[20]"></a>PDMA_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[1e]"></a>PS2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>PWMA_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>PWMB_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[22]"></a>PWRWU_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[25]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>SC012_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>SPI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[15]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[17]"></a>SPI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>TMR0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>TMR1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>TMR2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>TMR3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>USBD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>WDT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[2d]"></a>TestItem</STRONG> (Thumb, 82 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = TestItem &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[2f]"></a>SYS_Init</STRONG> (Thumb, 100 bytes, Stack size 16 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SYS_Init &rArr; SYS_WaitingForClockReady
+</UL>
+<BR>[Calls]<UL><LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_WaitingForClockReady
+</UL>
+<BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[34]"></a>UART0_Init</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, main.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[35]"></a>UART1_Init</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, main.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[31]"></a>AutoFlow_FunctionTest</STRONG> (Thumb, 1358 bytes, Stack size 24 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = AutoFlow_FunctionTest &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[33]"></a>UART_FunctionTest</STRONG> (Thumb, 1076 bytes, Stack size 16 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = UART_FunctionTest &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[26]"></a>main</STRONG> (Thumb, 106 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 124<LI>Call Chain = main &rArr; LIN_FunctionTest &rArr; LIN_MasterTest &rArr; LIN_SendHeader &rArr; GetParityValue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getc
+<LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_FunctionTest
+<LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_FunctionTestUsingLinCtlReg
+<LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_FunctionTest
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IrDA_FunctionTest
+<LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+<LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_FunctionTest
+<LI><a href="#[31]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AutoFlow_FunctionTest
+<LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART1_Init
+<LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART0_Init
+<LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+<LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestItem
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P><STRONG><a name="[3b]"></a>UART_TEST_HANDLE</STRONG> (Thumb, 140 bytes, Stack size 24 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = UART_TEST_HANDLE &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART02_IRQHandler
+</UL>
+
+<P><STRONG><a name="[12]"></a>UART02_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = UART02_IRQHandler &rArr; UART_TEST_HANDLE &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_TEST_HANDLE
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>UART1_IRQHandler</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = UART1_IRQHandler &rArr; RS485_HANDLE &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_HANDLE
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[3d]"></a>IrDA_FunctionRxTest</STRONG> (Thumb, 96 bytes, Stack size 16 bytes, irda.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = IrDA_FunctionRxTest &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IrDA_FunctionTest
+</UL>
+
+<P><STRONG><a name="[3e]"></a>IrDA_FunctionTxTest</STRONG> (Thumb, 92 bytes, Stack size 16 bytes, irda.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = IrDA_FunctionTxTest &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetChar
+</UL>
+<BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IrDA_FunctionTest
+</UL>
+
+<P><STRONG><a name="[37]"></a>IrDA_FunctionTest</STRONG> (Thumb, 1214 bytes, Stack size 8 bytes, irda.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = IrDA_FunctionTest &rArr; IrDA_FunctionTxTest &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetChar
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IrDA_FunctionTxTest
+<LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IrDA_FunctionRxTest
+</UL>
+<BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[40]"></a>LIN_TestItem</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, lin_master.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = LIN_TestItem &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_FunctionTestUsingLinCtlReg
+<LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_FunctionTest
+</UL>
+
+<P><STRONG><a name="[42]"></a>GetCheckSumValue</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, lin_master.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_SendResponse
+</UL>
+
+<P><STRONG><a name="[41]"></a>LIN_SendResponse</STRONG> (Thumb, 60 bytes, Stack size 24 bytes, lin_master.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = LIN_SendResponse &rArr; UART_Write
+</UL>
+<BR>[Calls]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Write
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetCheckSumValue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_MasterTest
+</UL>
+
+<P><STRONG><a name="[45]"></a>GetParityValue</STRONG> (Thumb, 78 bytes, Stack size 36 bytes, lin_master.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = GetParityValue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_SendHeaderUsingLinCtlReg
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_SendHeader
+</UL>
+
+<P><STRONG><a name="[44]"></a>LIN_SendHeader</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, lin_master.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = LIN_SendHeader &rArr; GetParityValue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Write
+<LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetParityValue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_MasterTest
+<LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_FunctionTest
+</UL>
+
+<P><STRONG><a name="[46]"></a>LIN_MasterTest</STRONG> (Thumb, 36 bytes, Stack size 48 bytes, lin_master.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 100<LI>Call Chain = LIN_MasterTest &rArr; LIN_SendHeader &rArr; GetParityValue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_SendHeader
+<LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_SendResponse
+</UL>
+<BR>[Called By]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_FunctionTest
+</UL>
+
+<P><STRONG><a name="[39]"></a>LIN_FunctionTest</STRONG> (Thumb, 86 bytes, Stack size 16 bytes, lin_master.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 116<LI>Call Chain = LIN_FunctionTest &rArr; LIN_MasterTest &rArr; LIN_SendHeader &rArr; GetParityValue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getc
+<LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_MasterTest
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_SendHeader
+<LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_TestItem
+</UL>
+<BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[4a]"></a>ComputeChksumValue</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, lin_master.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ComputeChksumValue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_MasterTestUsingLinCtlReg
+</UL>
+
+<P><STRONG><a name="[48]"></a>LIN_SendHeaderUsingLinCtlReg</STRONG> (Thumb, 798 bytes, Stack size 16 bytes, lin_master.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = LIN_SendHeaderUsingLinCtlReg &rArr; GetParityValue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Write
+<LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetParityValue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_MasterTestUsingLinCtlReg
+<LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_FunctionTestUsingLinCtlReg
+</UL>
+
+<P><STRONG><a name="[49]"></a>LIN_MasterTestUsingLinCtlReg</STRONG> (Thumb, 106 bytes, Stack size 32 bytes, lin_master.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = LIN_MasterTestUsingLinCtlReg &rArr; LIN_SendHeaderUsingLinCtlReg &rArr; GetParityValue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Write
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_SendHeaderUsingLinCtlReg
+<LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ComputeChksumValue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_FunctionTestUsingLinCtlReg
+</UL>
+
+<P><STRONG><a name="[3a]"></a>LIN_FunctionTestUsingLinCtlReg</STRONG> (Thumb, 102 bytes, Stack size 16 bytes, lin_master.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 100<LI>Call Chain = LIN_FunctionTestUsingLinCtlReg &rArr; LIN_MasterTestUsingLinCtlReg &rArr; LIN_SendHeaderUsingLinCtlReg &rArr; GetParityValue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getc
+<LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_MasterTestUsingLinCtlReg
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_SendHeaderUsingLinCtlReg
+<LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_TestItem
+</UL>
+<BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[3c]"></a>RS485_HANDLE</STRONG> (Thumb, 132 bytes, Stack size 16 bytes, rs485.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = RS485_HANDLE &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[13]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART1_IRQHandler
+</UL>
+
+<P><STRONG><a name="[4c]"></a>RS485_SendAddressByte</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, rs485.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_9bitModeMaster
+</UL>
+
+<P><STRONG><a name="[4d]"></a>RS485_SendDataByte</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, rs485.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = RS485_SendDataByte
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_9bitModeMaster
+</UL>
+
+<P><STRONG><a name="[4b]"></a>RS485_9bitModeMaster</STRONG> (Thumb, 230 bytes, Stack size 64 bytes, rs485.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = RS485_9bitModeMaster &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_SendDataByte
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_SendAddressByte
+<LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetChar
+</UL>
+<BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_FunctionTest
+</UL>
+
+<P><STRONG><a name="[4e]"></a>RS485_9bitModeSlave</STRONG> (Thumb, 124 bytes, Stack size 16 bytes, rs485.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = RS485_9bitModeSlave &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetChar
+</UL>
+<BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_FunctionTest
+</UL>
+
+<P><STRONG><a name="[38]"></a>RS485_FunctionTest</STRONG> (Thumb, 1170 bytes, Stack size 8 bytes, rs485.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = RS485_FunctionTest &rArr; RS485_9bitModeMaster &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_9bitModeSlave
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_9bitModeMaster
+<LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetChar
+</UL>
+<BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[4f]"></a>SendChar_ToUART</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, retarget.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+</UL>
+
+<P><STRONG><a name="[3f]"></a>GetChar</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, retarget.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fgetc
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_9bitModeSlave
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_9bitModeMaster
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IrDA_FunctionTxTest
+<LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_FunctionTest
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IrDA_FunctionTest
+</UL>
+
+<P><STRONG><a name="[29]"></a>fputc</STRONG> (Thumb, 12 bytes, Stack size 4 bytes, retarget.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = fputc
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendChar_ToUART
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> printf8.o(i.__0printf$8)
+</UL>
+<P><STRONG><a name="[50]"></a>fgetc</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, retarget.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetChar
+</UL>
+<BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getc
+</UL>
+
+<P><STRONG><a name="[5f]"></a>__aeabi_memcpy</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
+
+<P><STRONG><a name="[47]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_MasterTest
+</UL>
+
+<P><STRONG><a name="[60]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
+
+<P><STRONG><a name="[51]"></a>__aeabi_uldivmod</STRONG> (Thumb, 96 bytes, Stack size 48 bytes, uldiv.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+</UL>
+<BR>[Called By]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[2c]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[61]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[53]"></a>__aeabi_llsl</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, llshl.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+
+<P><STRONG><a name="[62]"></a>_ll_shift_l</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, llshl.o(.text), UNUSED)
+
+<P><STRONG><a name="[52]"></a>__aeabi_llsr</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, llushr.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+
+<P><STRONG><a name="[63]"></a>_ll_ushift_r</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, llushr.o(.text), UNUSED)
+
+<P><STRONG><a name="[43]"></a>UART_Write</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, lin_master.o(i.UART_Write))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = UART_Write
+</UL>
+<BR>[Called By]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_MasterTestUsingLinCtlReg
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_SendHeaderUsingLinCtlReg
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_SendHeader
+<LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_SendResponse
+</UL>
+
+<P><STRONG><a name="[55]"></a>__0printf$8</STRONG> (Thumb, 24 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[64]"></a>__1printf$8</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8), UNUSED)
+
+<P><STRONG><a name="[2e]"></a>__2printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_9bitModeSlave
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_9bitModeMaster
+<LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_TestItem
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IrDA_FunctionTxTest
+<LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IrDA_FunctionRxTest
+<LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_HANDLE
+<LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RS485_FunctionTest
+<LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_FunctionTestUsingLinCtlReg
+<LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_FunctionTest
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IrDA_FunctionTest
+<LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_TEST_HANDLE
+<LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_FunctionTest
+<LI><a href="#[31]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AutoFlow_FunctionTest
+<LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestItem
+</UL>
+
+<P><STRONG><a name="[36]"></a>__ARM_common_switch8</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, main.o(i.__ARM_common_switch8))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __ARM_common_switch8
+</UL>
+<BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[65]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[66]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[67]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[32]"></a>getc</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, getc.o(i.getc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = getc
+</UL>
+<BR>[Calls]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fgetc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_FunctionTestUsingLinCtlReg
+<LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIN_FunctionTest
+<LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[31]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AutoFlow_FunctionTest
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[24]"></a>Default_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc200series.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Default_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Default_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc200series.o(RESET)
+</UL>
+<P><STRONG><a name="[30]"></a>SYS_WaitingForClockReady</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SYS_WaitingForClockReady
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+
+<P><STRONG><a name="[56]"></a>_printf_core</STRONG> (Thumb, 1072 bytes, Stack size 104 bytes, printf8.o(i._printf_core), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0printf$8
+</UL>
+
+<P><STRONG><a name="[58]"></a>_printf_post_padding</STRONG> (Thumb, 32 bytes, Stack size 24 bytes, printf8.o(i._printf_post_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[57]"></a>_printf_pre_padding</STRONG> (Thumb, 44 bytes, Stack size 40 bytes, printf8.o(i._printf_pre_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

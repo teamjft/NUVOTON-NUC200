@@ -1,0 +1,44 @@
+/*---------------------------------------------------------------------------------------------------------*/
+/*                                                                                                         */
+/* Copyright (c) 2012 by Nuvoton Technology Corporation                                                    */
+/* All rights reserved                                                                                     */
+/*                                                                                                         */
+/*---------------------------------------------------------------------------------------------------------*/
+/*                                                                                                         */
+/* NuMicro(TM) NUC200 Series Board Support Package V1.00.002                                               */
+/*                                                                                                         */
+/*---------------------------------------------------------------------------------------------------------*/
+
+Introduction:
+The NuMicor(TM) NUC200 Series Board Support Package (BSP) supports the basic materials for NuMicro NUC200 series development and provides 
+an easy way to use the NuMicro(TM) NUC200 series. The documents and examples show how to use each peripheral 
+library. The pre-created projects of each tool chain (including KEIL and IAR) could be used as an application template.
+
+The supported tool chain includes: KEIL MDK 4.1, IAR EWARM 6.0 or higher versions.
+
+The default debug interface (ICE) of each sample project is Nu-Link. If using U-Link2 or J-Link, you may change the debugger
+option of the compiler tool chain.
+
+The NuMicro(TM) NUC200 Series BSP includes:
+
+\LibNUC200Series\CMSIS
+    The CMSIS files compliant with Cortex Microcontroller Software Interface Standard (CMSIS) v1.3 of ARM Corp.
+\Document
+    NuMicro(TM) NUC200 Series Driver Reference Guide and Release Note.
+\Project
+    A code template for user to implement their application.
+\SampleCode
+    All example code for NUC200 Series.
+
+Update History:
+
+2012/11/09:
+
+    V1.00.002    
+     - Fixed CAN, Smart Card, and GPIO driver bugs.
+     - Modified the unlock function to do retry when fail to unlock.
+
+2012/08/04:
+
+    V1.00.001   
+     - Primary release version.

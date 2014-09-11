@@ -1,0 +1,19 @@
+;#<FEEDBACK># ARM Linker, 5.03 [Build 76]: Last Updated: Sat Apr 26 10:30:45 2014
+;VERSION 0.2
+;FILE core_cm0.o
+__REV16 <= USED 0
+__REVSH <= USED 0
+__get_MSP <= USED 0
+__get_PSP <= USED 0
+__set_MSP <= USED 0
+__set_PSP <= USED 0
+;FILE main.o
+;FILE retarget.o
+GetChar <= USED 0
+SendChar <= USED 0
+_ttywrch <= USED 0
+ferror <= USED 0
+kbhit <= USED 0
+;FILE startup_nuc200series.o
+;FILE system_nuc200series.o
+SystemCoreClockUpdate <= USED 0

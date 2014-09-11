@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\libNUC200Series\CMSIS\CM0\DeviceSupport\Nuvoton\NUC200Series -I..\..\..\..\libNUC200Series\CMSIS\CM0\CoreSupport -I..\..\..\..\libNUC200Series\StdDriver\inc
+-I C:\Keil\ARM\RV31\INC
+-I C:\Keil\ARM\CMSIS\Include
+-I C:\Keil\ARM\Inc\Nuvoton\NUC200Series
+
+-o .\obj\retarget.o --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d --feedback ".\obj\RTC.fed" "..\..\..\..\LibNUC200Series\StdDriver\src\retarget.c"

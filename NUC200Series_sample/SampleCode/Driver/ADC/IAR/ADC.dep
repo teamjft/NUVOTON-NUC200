@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3167334579</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\ACMP.out</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\I2C.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\retarget.o</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tl_if.a</file>
+      <file>$PROJ_DIR$\Debug\Exe\ADC.bin</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\TIMER.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\GPIO.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\PWM.out</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\SYS.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\PWM.bin</file>
+      <file>$PROJ_DIR$\M051Series.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_cm0.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\EBI.h</file>
+      <file>$TOOLKIT_DIR$\inc\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_M051Series.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\CMSIS\CM0\CoreSupport\core_cm0.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_M051Series.o</file>
+      <file>$TOOLKIT_DIR$\inc\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\SPI.h</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\UART.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\PWM.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h</file>
+      <file>$TOOLKIT_DIR$\inc\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\FMC.h</file>
+      <file>$TOOLKIT_DIR$\inc\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\ADC.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ADC.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_cm0.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\retarget.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\PWM.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\iar\startup_M051Series.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.c</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ACMP.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\ACMP.bin</file>
+      <file>$PROJ_DIR$\..\..\..\..\LibM051Series\StdDriver\src\retarget.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_M051Series.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\ADC.out</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\ACMP.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 46 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 13 14 35 4 21 23 7 2 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\PWM.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 12 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 13 14 35 4 21 23 7 2 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\PWM.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 39 17 40 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\ADC.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 39 17 40 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\iar\startup_M051Series.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 30 19 36 20 0 32 26 24 33 15 22 16 29 11 34 18 31 9 3 41 25 8 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 30 19 36 0 32 26 24 33 15 22 16 29 11 34 18 31 9 3 41 25 8 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 30 19 36 20 0 32 26 24 15 22 33 16 29 11 34 18 31 9 3 41 25 8 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 30 19 36 0 32 26 24 15 22 33 16 29 11 34 18 31 9 3 41 25 8 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\ACMP.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 39 17 40 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\LibM051Series\StdDriver\src\retarget.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 30 19 36 20 0 32 26 24 15 22 33 16 29 11 34 18 31 9 3 41 25 8 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 30 19 36 0 32 26 24 15 22 33 16 29 11 34 18 31 9 3 41 25 8 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 30 19 36 20 0 32 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 30 19 36 0 32 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\ADC.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 13 14 35 4 21 23 7 2 5</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\Release\List\ADC.map</file>
+      <file>$PROJ_DIR$\Release\Exe\ADC.bin</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\I2C.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tl_if.a</file>
+      <file>$PROJ_DIR$\Release\Obj\core_cm0.o</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\TIMER.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\GPIO.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\SYS.h</file>
+      <file>$PROJ_DIR$\M051Series.icf</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h</file>
+      <file>$PROJ_DIR$\Release\Obj\system_M051Series.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\EBI.h</file>
+      <file>$TOOLKIT_DIR$\inc\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\CMSIS\CM0\CoreSupport\core_cm0.h</file>
+      <file>$TOOLKIT_DIR$\inc\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\SPI.h</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\UART.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h</file>
+      <file>$TOOLKIT_DIR$\inc\ycheck.h</file>
+      <file>$PROJ_DIR$\Release\Obj\main.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\FMC.h</file>
+      <file>$PROJ_DIR$\Release\Exe\PWM.out</file>
+      <file>$PROJ_DIR$\Release\Obj\ADC.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\ADC.h</file>
+      <file>$PROJ_DIR$\Release\Obj\core_cm0.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\retarget.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libM051Series\StdDriver\inc\PWM.h</file>
+      <file>$PROJ_DIR$\Release\Obj\system_M051Series.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\iar\startup_M051Series.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.c</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\Release\Exe\ACMP.out</file>
+      <file>$PROJ_DIR$\Release\Obj\PWM.pbd</file>
+      <file>$PROJ_DIR$\Release\Obj\startup_M051Series.o</file>
+      <file>$PROJ_DIR$\Release\Exe\ACMP.bin</file>
+      <file>$PROJ_DIR$\Release\Obj\ACMP.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\LibM051Series\StdDriver\src\retarget.c</file>
+      <file>$PROJ_DIR$\Release\Obj\retarget.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.c</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\PWM.bin</file>
+      <file>$PROJ_DIR$\Release\Exe\ADC.out</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\PWM.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 50 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 11 6 25 47 43 37 7 3 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\ADC.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 32 49 33 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\iar\startup_M051Series.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 24 16 34 2 29 21 19 30 12 18 14 23 10 31 15 26 9 4 36 20 8 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 24 16 34 2 29 21 19 12 18 30 14 23 10 31 15 26 9 4 36 20 8 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\ACMP.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 44 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 11 6 25 47 43 37 7 3 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\PWM.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 32 49 33 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\ACMP.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 32 49 33 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 51 0</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\LibM051Series\StdDriver\src\retarget.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 24 16 34 2 29 21 19 12 18 30 14 23 10 31 15 26 9 4 36 20 8 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 37 47 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30 24 16 34 17 2 29 21 39 35 19 12 18 14 23 10 31 15 26 9 4 36 20 8 22 46 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 24 16 34 2 29 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\ADC.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 11 6 25 47 43 37 7 3 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\LibM051Series\StdDriver\src\retarget.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

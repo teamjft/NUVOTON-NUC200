@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I..\..\LibNUC200Series\CMSIS\CM0\CoreSupport -I..\..\LibNUC200Series\CMSIS\CM0\DeviceSupport\Nuvoton\NUC200Series -I..\..\LibNUC200Series\StdDriver\inc
+-I C:\Keil\ARM\RV31\INC
+-I C:\Keil\ARM\CMSIS\Include
+-I C:\Keil\ARM\Inc\Nuvoton\NUC200Series
+-DUSE_STDPERIPH_DRIVER
+-o .\obj\initialization.o --list_dir ".\\lst\\" --list --omf_browse .\obj\initialization.crf --depend .\obj\initialization.d --feedback ".\obj\MyProject.fed" "..\Initialization.c"

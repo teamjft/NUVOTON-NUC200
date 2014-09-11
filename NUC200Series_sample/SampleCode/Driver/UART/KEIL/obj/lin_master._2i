@@ -1,0 +1,5 @@
+-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\libNUC200Series\CMSIS\CM0\DeviceSupport\Nuvoton\NUC200Series -I..\..\..\..\libNUC200Series\CMSIS\CM0\CoreSupport -I..\..\..\..\libNUC200Series\StdDriver\inc
+-I C:\Keil\ARM\RV31\INC
+-I C:\Keil\ARM\CMSIS\Include
+
+-o .\obj\lin_master.o --omf_browse .\obj\lin_master.crf --depend .\obj\lin_master.d --feedback ".\obj\UART.fed" "..\LIN_Master.c"

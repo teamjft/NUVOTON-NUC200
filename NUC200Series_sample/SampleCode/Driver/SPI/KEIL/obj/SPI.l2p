@@ -1,0 +1,10 @@
+--cpu Cortex-M0
+".\obj\core_cm0.o"
+".\obj\system_nuc200series.o"
+".\obj\startup_nuc200series.o"
+".\obj\main.o"
+".\obj\retarget.o"
+--library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict
+--map --first='startup_NUC200Series.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lst\SPI.map" -o .\obj\SPI.axf

@@ -1,0 +1,121 @@
+ARM Linker, 5.03 [Build 76] [MDK-ARM Lite]
+
+==============================================================================
+
+Small function inlining results
+
+Inlined total of 0 calls.
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000151
+
+  Load Region LR_1 (Base: 0x00000000, Size: 0x00000508, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region ER_RO (Base: 0x00000000, Size: 0x000004e8, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x000000c0   Data   RO          117    RESET               startup_nuc200series.o
+    0x000000c0   0x00000000   Code   RO          337  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
+    0x000000c0   0x00000004   Code   RO          341    .ARM.Collect$$$$00000001  mc_p.l(entry2.o)
+    0x000000c4   0x00000004   Code   RO          344    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
+    0x000000c8   0x00000000   Code   RO          346    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
+    0x000000c8   0x00000000   Code   RO          348    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
+    0x000000c8   0x00000008   Code   RO          349    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
+    0x000000d0   0x00000000   Code   RO          351    .ARM.Collect$$$$0000000D  mc_p.l(entry10a.o)
+    0x000000d0   0x00000000   Code   RO          353    .ARM.Collect$$$$0000000F  mc_p.l(entry11a.o)
+    0x000000d0   0x00000004   Code   RO          342    .ARM.Collect$$$$00002712  mc_p.l(entry2.o)
+    0x000000d4   0x0000007c   Code   RO           18    .text               system_nuc200series.o
+    0x00000150   0x0000004c   Code   RO          118  * .text               startup_nuc200series.o
+    0x0000019c   0x000001b8   Code   RO          122    .text               initialization.o
+    0x00000354   0x00000130   Code   RO          196    .text               main.o
+    0x00000484   0x00000024   Code   RO          355    .text               mc_p.l(init.o)
+    0x000004a8   0x0000000e   Code   RO          359    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x000004b6   0x00000002   Code   RO          360    i.__scatterload_null  mc_p.l(handlers.o)
+    0x000004b8   0x0000000e   Code   RO          361    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x000004c6   0x00000002   PAD
+    0x000004c8   0x00000020   Data   RO          357    Region$$Table       anon$$obj.o
+
+
+    Execution Region ER_RW (Base: 0x20000000, Size: 0x00000020, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x00000020   Data   RW           19    .data               system_nuc200series.o
+
+
+    Execution Region ER_ZI (Base: 0x20000020, Size: 0x00000400, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000020   0x00000400   Zero   RW          115    STACK               startup_nuc200series.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+         0          0          0          0          0       4244   core_cm0.o
+       440        104          0          0          0     152848   initialization.o
+       304          4          0          0          0        491   main.o
+        76         32        192          0       1024        724   startup_nuc200series.o
+       124         28          0         32          0      38431   system_nuc200series.o
+
+    ----------------------------------------------------------------------
+       944        168        224         32       1024     196738   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+
+    ----------------------------------------------------------------------
+        88         16          0          0          0         68   Library Totals
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+        86         16          0          0          0         68   mc_p.l
+
+    ----------------------------------------------------------------------
+        88         16          0          0          0         68   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      1032        184        224         32       1024     196710   Grand Totals
+      1032        184        224         32       1024     196710   ELF Image Totals
+      1032        184        224         32          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 1256 (   1.23kB)
+    Total RW  Size (RW Data + ZI Data)              1056 (   1.03kB)
+    Total ROM Size (Code + RO Data + RW Data)       1288 (   1.26kB)
+
+==============================================================================
+
